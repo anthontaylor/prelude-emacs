@@ -1,1 +1,3 @@
-(setq prelude-theme 'tangotango)
+(setq prelude-theme 'adwaita)
+
+(setq smerge-command-prefix "\C-cv")
