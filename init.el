@@ -117,6 +117,8 @@ by Prelude.")
 (when (eq system-type 'darwin)
   (require 'prelude-macos))
 
+
+
 (message "Loading Prelude's modules...")
 
 ;; the modules
@@ -144,5 +146,7 @@ by Prelude.")
 (prelude-eval-after-init
  ;; greet the use with some useful tip
  (run-at-time 5 nil 'prelude-tip-of-the-day))
+
+
 
 ;;; init.el ends here
