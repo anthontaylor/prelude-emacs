@@ -9,3 +9,9 @@
            "/usr/bin/open"
            (list "-a" "firefox" url))))
 (setq flymd-browser-open-function 'my-flymd-browser-function)
+
+(add-to-list 'load-path "/path/to/dash-at-point")
+(autoload 'dash-at-point "dash-at-point"
+  "Search the word at point with Dash." t nil)
+(global-set-key "\C-cc" 'dash-at-point)
+(global-set-key "\C-ce" 'dash-at-point-with-docset)
