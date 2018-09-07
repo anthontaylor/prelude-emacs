@@ -1,4 +1,4 @@
-(setq prelude-theme 'leuven-dark)
+(setq prelude-theme 'leuven)
 
 (setq smerge-command-prefix "\C-cv")
 (defun my-flymd-browser-function (url)
@@ -8,6 +8,7 @@
            nil
            "/usr/bin/open"
            (list "-a" "firefox" url))))
+
 (setq flymd-browser-open-function 'my-flymd-browser-function)
 
 (add-to-list 'load-path "/path/to/dash-at-point")
