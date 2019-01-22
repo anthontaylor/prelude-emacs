@@ -1,4 +1,4 @@
-(setq prelude-theme 'leuven-dark)
+(setq prelude-theme 'leuven)
 
 (setq smerge-command-prefix "\C-cv")
 (defun my-flymd-browser-function (url)
