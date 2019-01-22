@@ -8,6 +8,7 @@
            nil
            "/usr/bin/open"
            (list "-a" "firefox" url))))
+
 (setq flymd-browser-open-function 'my-flymd-browser-function)
 
 (add-to-list 'load-path "/path/to/dash-at-point")
