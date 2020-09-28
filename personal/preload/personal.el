@@ -16,3 +16,5 @@
   "Search the word at point with Dash." t nil)
 (global-set-key "\C-cc" 'dash-at-point)
 (global-set-key "\C-ce" 'dash-at-point-with-docset)
+
+(setq neo-theme (if (display-graphic-p) 'icons 'arrow))

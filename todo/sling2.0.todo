@@ -1,0 +1,41 @@
+(("sling2.0" . [4 0 33 0]))
+--==-- sling2.0
+[Nov 19, 2019] Look at why tiles are getting discarding on trending live
+[Nov 19, 2019] Get trending live working locally
+[Nov 19, 2019] Isolate bug
+[Nov 19, 2019] Fix bug and write regression test
+
+==--== DONE 
+[DONE Nov 19, 2019] [Aug 22, 2019] Include tests to handle regression
+[DONE Nov 19, 2019] [Aug 22, 2019] Make sure that whatever big data gives us, we have an appropriate translation
+[DONE Nov 19, 2019] [Aug 22, 2019] Validate changes for series
+[DONE Nov 19, 2019] [Aug 22, 2019] Validate changes for movies
+[DONE Nov 19, 2019] [Aug 22, 2019] Make the code changes to IsOnboarding Tiles
+[DONE Nov 19, 2019] [Aug 22, 2019] Validate these changes by running it locally, favoriting the new data, and seeing whether it shows up in the favorites ribbon.
+[DONE Nov 19, 2019] [Aug 22, 2019] Look at how asset tiles are populated
+[DONE Nov 19, 2019] [Aug 22, 2019] Write down the translations and what they map to for our favorites
+[DONE Nov 19, 2019] [Aug 22, 2019] What do we map program to?
+[DONE Aug 22, 2019] [Aug 19, 2019] Run locally pointing to dev
+[DONE Aug 22, 2019] [Aug 19, 2019] See what tests fail and fix integration tests if needed.
+[DONE Aug 22, 2019] [Aug 19, 2019] Include manifest file to PR
+[DONE Aug 19, 2019] [Aug 9, 2019] support logging
+[DONE Aug 9, 2019] [Aug 5, 2019] Write documentation for these actions
+[DONE Aug 9, 2019] [Aug 5, 2019] lowercase the iview type
+[DONE Aug 9, 2019] [Aug 5, 2019] make the strings pointers on the actions struct?
+[DONE Aug 5, 2019] [Jul 30, 2019] Look at channels
+[DONE Aug 5, 2019] [Jul 30, 2019] look at program distinction
+[DONE Aug 5, 2019] [Jul 30, 2019] Test out the changes
+[DONE Aug 5, 2019] [Jul 30, 2019] Include the tile type
+[DONE Aug 5, 2019] [Jul 30, 2019] Look at what other types need iview data
+[DONE Aug 5, 2019] [Jul 30, 2019] clean up href logic
+[DONE Aug 5, 2019] [Jul 30, 2019] Update cmwnext to make sure it gets parsed appropriately to json
+[DONE Aug 5, 2019] [Jul 30, 2019] Validate nil pointers on cmwnext
+[DONE Aug 5, 2019] [Jul 30, 2019] include restart tile iview data on action on restart tiles
+[DONE Aug 5, 2019] [Jul 30, 2019] Include iview data if user is prospect or lead on unentitled content
+[DONE Aug 5, 2019] [Jul 30, 2019] Modify proto file to include new action hrefIview and type
+[DONE Aug 5, 2019] [Jul 30, 2019] Modify action to have hrefIview
+[DONE Aug 5, 2019] [Jul 30, 2019] Write test for cmwnext-presentation
+[DONE Aug 5, 2019] [Jul 30, 2019] write tests for cmwnext
+[DONE Aug 5, 2019] [Jul 31, 2019] fix current tests of cmwnext
+[DONE Aug 5, 2019] [Jul 31, 2019] make sure iview type is being marshalled
+[DONE Jul 31, 2019] [Jul 30, 2019] Make sure to include the asset type maybe where we do the adobe analytics
